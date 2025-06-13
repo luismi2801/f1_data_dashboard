@@ -1,0 +1,57 @@
+# =================================================================
+# .gitignore para el Dashboard de F1
+# Estrategia: Ignorar todo y luego añadir excepciones (whitelist)
+# =================================================================
+
+# 1. Ignorar todos los archivos y carpetas por defecto.
+*
+
+# 2. Añadir excepciones para los archivos y carpetas que SÍ queremos incluir.
+#    El '!' al principio significa "no ignorar".
+
+# Archivos principales en la raíz
+!main.py
+!requirements.txt
+!images.json
+!README.md
+!.gitignore
+
+# Carpetas y todo su contenido
+# La primera línea permite incluir la carpeta, la segunda incluye su contenido.
+!data/
+!data/**
+!database/
+!database/**
+!pages/
+!pages/**
+
+
+# =================================================================
+# Exclusiones adicionales de archivos comunes de desarrollo
+# (Aunque ya están cubiertos por el '*', es buena práctica listarlos)
+# =================================================================
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs
+.vscode/
+.idea/
+
+# Documentos de LaTeX (archivos auxiliares generados al compilar)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
