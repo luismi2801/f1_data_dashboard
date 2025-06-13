@@ -6,7 +6,7 @@ An interactive web application built with Python and Streamlit for visualizing h
 
 ## ✨ Live Demo
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](f1statsdashboard.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://f1statsdashboard.streamlit.app)
 
 ---
 
