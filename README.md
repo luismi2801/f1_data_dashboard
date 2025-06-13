@@ -2,17 +2,11 @@
 
 An interactive web application built with Python and Streamlit for visualizing historical Formula 1 data. This dashboard provides a comprehensive tool for F1 enthusiasts to explore statistics on drivers, constructors, races, and seasons through dynamic charts and maps.
 
-*(Sugerencia: Graba un GIF corto mostrando la interacción con la app y ponlo aquí. ¡Un GIF vale más que mil imágenes!)*
-
-![Demo GIF of the F1 Dashboard](URL_DEL_GIF_AQUI)
-
 ---
 
 ## ✨ Live Demo
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](URL_DE_TU_APP_EN_STREAMLIT_CLOUD_AQUI)
-
-*(Reemplaza la URL de arriba una vez que despliegues la aplicación en Streamlit Community Cloud)*
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](f1statsdashboard.streamlit.app)
 
 ---
 
@@ -42,32 +36,6 @@ This project is built with a powerful stack of data science and web development 
 
 ---
 
-## 📸 Screenshots
-
-<details>
-<summary>Click to view screenshots</summary>
-
-**Página Principal**
-*A portal to all analytical sections with key metrics at a glance.*
-![Main Page](URL_DE_IMAGEN_PAGINA_PRINCIPAL)
-
-**Análisis de Piloto (Lewis Hamilton)**
-*Detailed stats, career performance chart, and a Folium map showing all countries where he has won.*
-![Driver Analysis](URL_DE_IMAGEN_ANALISIS_PILOTO)
-
-**Comparativa por Temporada**
-*Comparing Alonso, Vettel, and Hamilton's points from 2010 to 2023.*
-![Season Comparison](URL_DE_IMAGEN_COMPARATIVA)
-
-**Resultados Históricos**
-*Drill-down to find the results of a specific race session, including a pit stop analysis.*
-![Historical Results](URL_DE_IMAGEN_RESULTADOS)
-
-</details>
-
-*(Reemplaza las URL de las imágenes con capturas de tu propia aplicación. Puedes subirlas directamente a una "issue" en tu repo de GitHub para obtener una URL)*
-
----
 
 ## ⚙️ Setup and Installation
 
@@ -130,7 +98,7 @@ F1-Dashboard/
 
 ---
 
-##📄 License
+## 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 

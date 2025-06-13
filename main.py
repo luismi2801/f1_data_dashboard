@@ -52,37 +52,37 @@ with c1:
         st.subheader("👤 Análisis de Pilotos")
         st.write("Investiga la carrera, estadísticas y victorias de cada piloto.")
         if st.button("Ir a Información de Pilotos", key="pilotos", use_container_width=True):
-            st.switch_page("pages/informacion_pilotos.py")
+            st.switch_page("pages/1_👤_Informacion_de_Pilotos.py")
 
     with st.container(border=True):
         st.subheader("📅 Información de Grandes Premios")
         st.write("Descubre qué pilotos y equipos dominan en cada circuito.")
         if st.button("Ir a Información de GP", key="gp", use_container_width=True):
-            st.switch_page("pages/informacion_gp.py")
+            st.switch_page("pages/5_🏆_Informacion_de_GP.py")
 
     with st.container(border=True):
         st.subheader("🌍 Estadísticas Geográficas")
         st.write("Visualiza la distribución mundial de campeones y victorias.")
         if st.button("Ir a Estadísticas Geográficas", key="geo", use_container_width=True):
-            st.switch_page("pages/estadisticas_geograficas.py")
+            st.switch_page("pages/6_🌍_Estadisticas_Geograficas.py")
 
 with c2:
     with st.container(border=True):
         st.subheader("🏢 Análisis de Escuderías")
         st.write("Compara el rendimiento y la trayectoria histórica de los equipos.")
         if st.button("Ir a Información sobre Escuderías", key="escuderias", use_container_width=True):
-            st.switch_page("pages/informacion_escuderias.py")
+            st.switch_page("pages/2_🏢_Informacion_de_Escuderias.py")
 
     with st.container(border=True):
         st.subheader("🏁 Resultados Históricos")
         st.write("Busca los resultados detallados de cualquier sesión de F1.")
         if st.button("Ir a Resultados Históricos", key="resultados", use_container_width=True):
-            st.switch_page("pages/resultados_historicos.py")
+            st.switch_page("pages/4_🏁_Resultados_Historicos.py")
 
     with st.container(border=True):
         st.subheader("📊 Comparativa por Temporada")
         st.write("Compara cara a cara a los pilotos a lo largo de los años.")
         if st.button("Ir a Análisis de Temporada", key="analisis", use_container_width=True):
-            st.switch_page("pages/analisis_temporada.py")
+            st.switch_page("pages/3_📊_Analisis_de_Temporada.py")
 
 st.markdown("---")

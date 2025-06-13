@@ -24,7 +24,8 @@
 !database/**
 !pages/
 !pages/**
-
+!.streamlit/
+!.stramlit/**
 
 # =================================================================
 # Exclusiones adicionales de archivos comunes de desarrollo
